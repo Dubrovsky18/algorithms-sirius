@@ -7,5 +7,4 @@ def circle_area(radius):
     if radius < 0:
         raise ValueError("Radius can't be negative")
     return pi*radius**2
-
 print(circle_area(25))
